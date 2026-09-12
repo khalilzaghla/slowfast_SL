@@ -1,0 +1,35 @@
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+ENV/
+
+# Proprietary Model Checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+*.bin
+slowfast_tubelet_shoplifting_head.pth
+best_shoplifting.pt
+
+# Surveillance Footage & Datasets
+*.mp4
+*.avi
+*.mkv
+*.mov
+dataset_tubelets/
+dataset/
+uploads/
+runs/
+static/uploads/
+static/runs/
+
+# System & IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+tracker:
+  model: "yolov8m.pt"
+  conf_threshold: 0.15
+  iou_threshold: 0.50
+  imgsz: 960
+  stationary_threshold_px: 15.0
+  stationary_min_history: 32
+
+tubelet:
+  crop_margin: 0.15
+  target_size: [224, 224]
+  fast_frames: 32
+  slow_frames: 8
+  sampling_stride_fast: 2
+  sampling_stride_slow: 4
+
+inference:
+  threshold_theft: 0.70
+  threshold_suspicious: 0.35
+  latch_horizon_frames: 25
